@@ -12,7 +12,8 @@ notifications:
       - esetcat@gmail.com
 
 script:
-  - mvn verify
-  # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
+  #Test unitario y de integracion con cobertura (jacoco)
   - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
-  - mvn sonar:sonar -Dsonar.organization=miw-upm-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR
+
+  #SONARCLOUD
+  - mvn sonar:sonar -Dsonar.host.url=https://sonarcloud.io -Dsonar.organization=miw-upm-github -Dsonar.login=$SONAR
