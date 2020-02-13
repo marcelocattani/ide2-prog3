@@ -5,7 +5,8 @@ branches:
   only:
     - master
     - develop
+dist: trusty
 notifications:
   email:
     recipients:
-      - marcelocattani96@gmail.com
+      - esetcat@gmail.com
