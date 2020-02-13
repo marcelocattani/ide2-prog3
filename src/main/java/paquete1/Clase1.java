@@ -2,6 +2,7 @@ package paquete1;
 
 public class Clase1 {
     public void metodo1(){
+        int x;
     }
 
     public void metodo2(){
