@@ -132,13 +132,4 @@
         </plugins>
     </build>
 
-    <!--DATOS DEL DESARROLLADOR-->
-    <developer>
-        <name>CATTANI, Marcelo Omar</name>
-        <id>marcelocattani</id>
-        <email>marcelocattani96@gmail.com</email>
-        <organitation>UTN-FRM </organitation>
-        <role>Developer</role>
-    </developer>
-
 </project>
