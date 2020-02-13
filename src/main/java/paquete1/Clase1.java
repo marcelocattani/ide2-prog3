@@ -11,4 +11,8 @@ public class Clase1 {
     public void metodo3(){
 
     }
+
+    public void metodo4(){
+
+    }
 }
